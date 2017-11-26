@@ -1,11 +1,15 @@
+ifndef XDG_DATA_HOME
+	XDG_DATA_HOME := ${HOME}/.local/share
+endif
+
 build:
 
 clean:
 
 install:
-	mkdir -p ~/.local/share/icons/
+	mkdir -p ${XDG_DATA_HOME}/icons/
 	find Suru/[1-9]* Suru/scalable Suru/index.theme -exec \
-		install -D '{}' ~/.local/share/icons/'{}' \;
+		install -D '{}' ${XDG_DATA_HOME}/icons/'{}' \;
 
 install-root:
 	find Suru/[1-9]* Suru/scalable Suru/index.theme -exec \
@@ -13,7 +17,7 @@ install-root:
 	gtk-update-icon-cache /usr/share/icons/Suru
 
 uninstall:
-	rm -r ~/.local/share/icons/Suru
+	rm -r ${XDG_DATA_HOME}/icons/Suru
 
 uninstall-root:
 	rm -r /usr/share/icons/Suru

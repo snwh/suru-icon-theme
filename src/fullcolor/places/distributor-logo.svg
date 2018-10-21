@@ -18,7 +18,7 @@
    id="svg11300"
    sodipodi:version="0.32"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="distributor.svg"
+   sodipodi:docname="distributor-logo.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new"
@@ -35,16 +35,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="327.38886"
-     inkscape:cy="74.181886"
-     inkscape:current-layer="layer1"
+     inkscape:cx="119.38886"
+     inkscape:cy="146.18189"
+     inkscape:current-layer="layer7"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1296"
+     inkscape:window-width="1300"
      inkscape:window-height="704"
-     inkscape:window-x="70"
+     inkscape:window-x="66"
      inkscape:window-y="27"
      width="400px"
      height="300px"
@@ -541,7 +541,7 @@
      inkscape:label="Icon"
      id="layer1">
     <g
-       style="display:none"
+       style="display:inline"
        inkscape:label="Baseplate"
        id="layer7"
        inkscape:groupmode="layer">
@@ -568,7 +568,7 @@
            y="-8.2548828"
            x="146.48828"
            sodipodi:role="line"
-           id="tspan3937">distributor</tspan></text>
+           id="tspan3937">distributor-logo</tspan></text>
       <rect
          style="display:inline;overflow:visible;visibility:visible;fill:#cdcdcd;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
          id="rect16x16"
